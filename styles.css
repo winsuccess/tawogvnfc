@@ -1,0 +1,90 @@
+@font-face {
+    font-family: lightfont;
+    src: url(TheLightFont.ttf);
+}
+.btn{
+    position: fixed;
+    top:0;
+    right: 10px;
+}
+
+.nav1{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.bar1{
+    background-color: aquamarine;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.nav2{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.col-sm-2{
+    text-align: center;
+    font-family: lightfont;
+    font-size: 2em;
+    color:white;
+    opacity: 0.9;
+}
+
+.col-sm-3{
+    padding-top: 1em;
+}
+
+.season1img{
+    background-color: black;
+}
+.nav3{
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.nav>a:hover{
+    color: purple;
+}
+
+.nav>a.active,
+.nav>a:focus {
+    font-weight: bold;
+    color: green;
+    opacity: 1;
+}
+
+.outline{
+    width: 105%;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: #EEECEC;
+    padding: 0.5em;
+    padding-right: 0.6em;
+    padding-bottom: 0.7em;
+}
+.episode{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    box-shadow: 3px 6px 5px #aaaaaa;
+}
+.episode:hover{
+    opacity: 0.8;
+}
+
+p{
+    position: absolute;
+    top: 80%;
+    left: 51%;
+transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    color: white;
+}
+
