@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: lightfont;
-    src: url(../SubSkipper/TheLightFont.ttf) format('truetype');
+    src: url(TheLightFont.ttf) format('truetype');
 }
 
 .btn{
@@ -17,14 +17,6 @@
     margin-top: 3em;
     padding: 1em;
    
-}
-
-.bar1{
-    background-color: aquamarine;
-    border-radius: 5px; 
-    padding: 5em 5em 5em 5em;
-     text-align: center;
-     position: relative;
 }
 
 .nav2{
@@ -107,6 +99,15 @@ p{
     text-align:center;
     font-size: 3em;
     font-family: 'Roboto';
+}
+
+
+.bar1{
+    background-color: whitesmoke;
+    border-radius: 5px; 
+    padding: 3em 2em 3em 2em;
+     text-align: center;
+     position: relative;
 }
 
 .video{
