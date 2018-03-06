@@ -15,12 +15,15 @@
     border-radius: 5px;
     margin-top: 3em;
     padding: 1em;
+   
 }
 
 .bar1{
     background-color: aquamarine;
-    border-radius: 5px;
-    text-align:center;
+    border-radius: 5px; 
+    padding: 5em 5em 5em 5em;
+     text-align: center;
+     position: relative;
 }
 
 .nav2{
@@ -28,6 +31,7 @@
     border-radius: 5px;
     margin-top: 1em;
     padding: 1em;
+    margin-bottom: 3em;
 }
 
 .col-sm-2{
@@ -101,5 +105,13 @@ p{
 .alert{
     text-align:center;
     font-size: 3em;
-    font-family: 'Roboto';  
+    font-family: 'Roboto';
+}
+
+.video{
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    max-width:100%;
+    overflow:hidden;
 }

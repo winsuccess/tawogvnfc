@@ -14,12 +14,21 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- External Files -->
-       <link rel="stylesheet" type="text/css" href="styles.css">
-       <!--<script src="script.js"></script> -->
+       <link rel="stylesheet" type="text/css" href="stylesep.css">
+       <script src="https://api.dmcdn.net/all.js"></script>
+       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     </head>
 
   <body style="background-color: rgb(51, 51, 255)">
-
+        <!--Scripts-->
+          <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+         js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12';
+         fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     <!-- LOGO -->
         <img src="logo2.png" alt="TAWOGVNFC" style=" display: block; margin-left: auto; margin-right: auto; margin-top:5em; width: 30%">
 
@@ -43,11 +52,6 @@
                 </ul>
             </div>
     <!-- Main Tab-->
-    <div class="nav1 container">
-        <div class="bar1 container">
-            NEW EPISODE! </div>
-         <img src="the-rival.jpg" alt="The Rival" style=" width: 70% ">
-    </div>
 
     <div class="nav2 container">
         <div class="bar2 container">
@@ -60,69 +64,81 @@
                 <a class="col-sm-2 season1img" data-toggle="pill" href="#season6">Season 6</a>
             </div>
 
-    <div class="tab-content">
+        <div class="tab-content">
             <div id="season1" class="tab-pane container fade">
-                <table>
-                    
-                    
-                    <td> <img src="the-rival.jpg" alt="The Rival" style=" width: 70% "></td>
-                    <td> <img src="the-rival.jpg" alt="The Rival" style=" width: 70% "></td>
-                    <td> a</td>
-                    <td> a</td>
-                    <td> a</td>
-                    <td> a</td>
-                </table>
+                <div class="alert"> Hiện tại chưa có Season 1 các bạn thông cảm! </div>
+                
             </div>
             
             <div id="season2" class="tab-pane container fade">
-                <table>
-                        <br>
-                    <td> <img src="the-rival.jpg" alt="The Rival" style=" width: 70% "></td>
-                    <td> <img src="the-rival.jpg" alt="The Rival" style=" width: 70% "></td>
-                    <td> b</td>
-                    <td> a</td>
-                    <td> b</td>
-                    <td> a</td>
-                </table>    
+                    <div class="alert"> Hiện tại chưa có Season 2 các bạn thông cảm! </div>  
+            </div>
+
+            <div id="season3" class="tab-pane container fade">
+                    <div class="alert"> Hiện tại chưa có Season 3 các bạn thông cảm! </div>  
+            </div>
+
+            <div id="season4" class="tab-pane container fade">
+                    <div class="alert"> Hiện tại chưa có Season 4 các bạn thông cảm! </div>  
             </div>
 
             <div id="season5" class="tab-pane container fade">
                 <div class="row">
                         <div class="col-sm-3">
                                 <div class="outline">
-                        <a href="episodes/index.html">  <div class="episode" > <img src="Episodes/Img/The_RerunCard.png" alt="The Rerun" style="width: 100%"> <br> <p>E01</p>
+                        <a href="Episodes/s05e01.html">  <div class="episode" > <img src="Episodes/Img/The_RerunCard.png" alt="The Rerun" style="width: 100%"> <br> <p>Tập 1 </p>
                         </div> </div> </div> </a> 
+
                         <div class="col-sm-3" >
                                 <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_Stories_Card.png" alt="The Rival" style="width: 100%"> <br> <p>E02</p>
+                                <div class="episode" > <img src="Episodes/Img/The_Stories_Card.png" alt="The Stories" style="width: 100%"> <br> <p>Tập 2</p>
                         </div> </div>  </div>
+
                         <div class="col-sm-3" >
                                 <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_GuyCard.png" alt="The Rival" style="width: 100%"> <br> <p>E03</p>
-                        </div> </div> </div>
-                        <div class="col-sm-3">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_BoredomCard.png" alt="The Rival" style="width: 100%"> <br> <p>E04</p>
-                        </div> </div> </div>
-                        <div class="col-sm-3">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_VisionCard.png" alt="The Rival" style="width: 100%"> <br> <p>E05</p>
-                        </div> </div> </div>
-                        <div class="col-sm-3" style=" padding-top: 1em">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_ChoicesCard.png" alt="The Rival" style="width: 100%"> <br> <p>E06</p>
+                                <div class="episode" > <img src="Episodes/Img/The_GuyCard.png" alt="The Guy" style="width: 100%"> <br> <p>Tập 3</p>
                         </div> </div> </div>
 
+                        <div class="col-sm-3">
+                                <div class="outline">
+                                <div class="episode" > <img src="Episodes/Img/The_BoredomCard.png" alt="The Boredom" style="width: 100%"> <br> <p>Tập 4</p>
+                        </div> </div> </div>
+
+                        <div class="col-sm-3">
+                                <div class="outline">
+                                <div class="episode" > <img src="Episodes/Img/The_VisionCard.png" alt="The Vision" style="width: 100%"> <br> <p>Tập 5</p>
+                        </div> </div> </div>
+
+                        <div class="col-sm-3" style=" padding-top: 1em">
+                                <div class="outline">
+                                <div class="episode" > <img src="Episodes/Img/The_ChoicesCard.png" alt="The Choices" style="width: 100%"> <br> <p>Tập 6</p>
+                        </div> </div> </div>
                 </div>
-                     
             </div>
-    </div>       
+
+            <div id="season6" class="tab-pane container fade">
+                <div class="row">
+                        <div class="col-sm-3" style=" padding-top: 1em">
+                                <div class="outline">
+                                <div class="episode" > <img src="Episodes/Img/TheRivalTitleCard.png" alt="The Rival" style="width: 100%"> <br> <p>Tập 1</p>
+                        </div> </div> </div>
+                </div>
+            </div>         
+        </div>   
         </div>
     </div>
 
+        <div class="bar1 container">
+                <div class="video">
+                        <iframe src="http://iframespot.blogspot.com/?m=0&type=dv&url=http%3A%2F%2Fwww.dailymotion.com%2Fembed%2Fvideo%2Fx6eui92%3Fapi%3D0%26autoplay%3D0%26mute%3D0%26theme%3Ddark%26info%3D0%26logo%3D0%26social%3D0%26related%3D0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen></iframe>
+                </div>
+                <div class="fb-comments" data-href="https://www.facebook.com/TAWOGVNFC/photos/a.1418119758477741.1073741828.1418050528484664/2061753990780978/?type=3&amp;theater" data-width="100%" data-numposts="5"></div>
+        </div>
+
+
     <div class="nav3 container">
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTAWOGVNFC%2F&tabs=timeline&width=300&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>                 
-        </div>
+    </div>
 
   </body>
 
