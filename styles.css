@@ -50,6 +50,8 @@
     background-color:whitesmoke;
     border-radius: 5px;
     margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .nav>a:hover{
