@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: lightfont;
-    src: url(TheLightFont.ttf);
+    src: url(../SubSkipper/TheLightFont.ttf) format('truetype');
 }
 .btn{
     position: fixed;
