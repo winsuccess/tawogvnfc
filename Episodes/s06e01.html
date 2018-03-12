@@ -15,10 +15,13 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- External Files -->
        <link rel="stylesheet" type="text/css" href="stylesep.css">
+       <link rel="stylesheet" type="text/css" href="reponsive.css">
        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
 
-  <body style="background-color: rgb(51, 51, 255)">
+  <body>
         <!--Scripts-->
           <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -29,14 +32,14 @@
          fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
     <!-- LOGO -->
-    <a href="/"><img src="logo2.png" alt="TAWOGVNFC" style=" display: block; margin-left: auto; margin-right: auto; margin-top:5em; width: 30%"> </a>
+    <a href="/"><img src="../logo2.png" alt="TAWOGVNFC" class="logo"> </a>
 
-    <!-- Toggle/Collapse Button -->
+    <!-- Toggle/Collapse Button
         <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapsible">
         Basic
         </button>
     
-    <!-- Navbar links -->
+    <!-- Navbar links
             <div class="collapse" id="collapsible" style="position:fixed; top:40px; right: 10px;">               
                 <ul class="list-group">
                             <li class="list-group-item">
@@ -49,18 +52,18 @@
                               Support Us
                             </li>
                 </ul>
-            </div>
-    <!-- Main Tab-->
+            </div> -->
 
+    <!-- Main Tab-->
     <div class="nav2 container">
         <div class="bar2 container">
             <div class="row nav nav-pills">
-                <a class="col-sm-2 season1img" data-toggle="pill" href="#season1">Season 1</a>
-                <a class="col-sm-2 season1img" data-toggle="pill" href="#season2">Season 2</a>
-                <a class="col-sm-2 season1img" data-toggle="pill" href="#season3">Season 3</a>
-                <a class="col-sm-2 season1img" data-toggle="pill" href="#season4">Season 4</a>
-                <a class="col-sm-2 season1img" data-toggle="pill" href="#season5">Season 5</a>
-                <a class="col-sm-2 season1img" data-toggle="pill" href="#season6">Season 6</a>
+                <a class="col-2 season1img" data-toggle="pill" href="#season1"style="border-top-left-radius:5px; border-bottom-left-radius:5px">Season 1</a>
+                <a class="col-2 season1img" data-toggle="pill" href="#season2">Season 2</a>
+                <a class="col-2 season1img" data-toggle="pill" href="#season3">Season 3</a>
+                <a class="col-2 season1img" data-toggle="pill" href="#season4">Season 4</a>
+                <a class="col-2 season1img" data-toggle="pill" href="#season5">Season 5</a>
+                <a class="col-2 season1img" data-toggle="pill" href="#season6"style="border-top-right-radius:5px; border-bottom-right-radius:5px">Season 6</a>
             </div>
 
         <div class="tab-content">
@@ -82,52 +85,66 @@
             </div>
 
             <div id="season5" class="tab-pane container fade">
-                <div class="row">
-                        <div class="col-sm-3">
-                                <div class="outline">
-                        <a href="Episodes/s05e01.html">  <div class="episode" > <img src="Episodes/Img/The_RerunCard.png" alt="The Rerun" style="width: 100%"> <br> <p>Tập 1 </p>
-                        </div> </div> </div> </a> 
-
-                        <div class="col-sm-3" >
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_Stories_Card.png" alt="The Stories" style="width: 100%"> <br> <p>Tập 2</p>
-                        </div> </div>  </div>
-
-                        <div class="col-sm-3" >
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_GuyCard.png" alt="The Guy" style="width: 100%"> <br> <p>Tập 3</p>
-                        </div> </div> </div>
-
-                        <div class="col-sm-3">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_BoredomCard.png" alt="The Boredom" style="width: 100%"> <br> <p>Tập 4</p>
-                        </div> </div> </div>
-
-                        <div class="col-sm-3">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_VisionCard.png" alt="The Vision" style="width: 100%"> <br> <p>Tập 5</p>
-                        </div> </div> </div>
-
-                        <div class="col-sm-3" style=" padding-top: 1em">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/The_ChoicesCard.png" alt="The Choices" style="width: 100%"> <br> <p>Tập 6</p>
-                        </div> </div> </div>
+                <div class="container my-2">
+                    
+                    <div class="row mx-auto my-auto">
+                        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                            <div class="carousel-inner w-100" role="listbox">
+                                <div class="carousel-item active">
+                                        <div class="outline col-5-12">
+                                            <a>  <div class="episode" > <img src="Img/The_RerunCard.png" alt="The Rerun" style="width: 90%">
+                                            </div> </a> </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="outline col-5-12">
+                                            <div class="episode">
+                                                    <img src="Img/The_Stories_Card.png" alt="The Stories" style="width: 90%">
+                                                </div> </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="outline col-5-12">
+                                                <div class="episode">
+                                                        <img src="Img/The_GuyCard.png" alt="The Stories" style="width: 90%">
+                                                    </div> </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="outline col-5-12">
+                                                <div class="episode">
+                                                        <img src="Img/The_BoredomCard.png" alt="The Stories" style="width: 90%">
+                                                    </div> </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="outline col-5-12">
+                                            <div class="episode">
+                                                    <img src="Img/The_VisionCard.png" alt="The Stories" style="width: 90%">
+                                                </div> </div>
+                                </div>
+                                <div class="carousel-item">
+                                        <div class="outline  col-5-12">
+                                                <div class="episode">
+                                                        <img src="Img/The_ChoicesCard.png" alt="The Stories" style="width: 90%">
+                                                    </div> </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div id="season6" class="tab-pane container fade">
-                <div class="row">
-                        <div class="col-sm-3" style=" padding-top: 1em">
-                                <div class="outline">
-                                <div class="episode" > <img src="Episodes/Img/TheRivalTitleCard.png" alt="The Rival" style="width: 100%"> <br> <p>Tập 1</p>
-                        </div> </div> </div>
-                </div>
+               
             </div>         
         </div>   
         </div>
     </div>
-
-        <div class="bar1 container">
+    
+        <div class="navmain container">
+            <h1> The Rival - S06E01</h1>
                 <div class="video">
                         <iframe src="http://iframespot.blogspot.com/?m=0&type=dv&url=http%3A%2F%2Fwww.dailymotion.com%2Fembed%2Fvideo%2Fx6eui92%3Fapi%3D0%26autoplay%3D0%26mute%3D0%26theme%3Ddark%26info%3D0%26logo%3D0%26social%3D0%26related%3D0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen></iframe>
                 </div>
@@ -136,9 +153,14 @@
 
 
     <div class="nav3 container">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTAWOGVNFC%2F&tabs=timeline&width=300&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>                 
-    </div>
+            <div class="row">
+                    <div class="col-md-4"><iframe class="fb-page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTAWOGVNFC&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+                    <div class="col-md-8 about">Trang web được tạo bởi #AdTobias của TAWOGVNFC. Nếu có bất kì thắc mắc, hỏi đáp, hoặc góp ý hãy gửi tới Inbox của Page hoặc mail tới <i class="material-icons"style="font-size:1em">&#xe158</i> tawogfcvn@gmail.com </div>                 
+                </div> 
+           </div>
 
+<!-- Script -->
+<script src="script.js"></script>
   </body>
 
 </html>
