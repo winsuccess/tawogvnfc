@@ -9,9 +9,12 @@ body{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
-      ),url(https://i.imgur.com/KoYIaDQ.jpg);
+      ),url(wallpaper-min.jpg);
      background-size: 25%;
 }
+img {color:black}
+
+
 .btn{
     position: fixed;
     top:0;
@@ -39,8 +42,8 @@ body{
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url(https://i.imgur.com/M24FwBK.png);
-    background-size: 30%;
+    ),url(5.png);
+    background-size: 20%;
 }
 
 .carousel-inner img {
@@ -126,8 +129,8 @@ ol.carousel-indicators {
     linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
-    ),url(https://i.imgur.com/8ORsxMP.png);
-    background-size: 200%;
+    ),url(Episode_card_background.jpg);
+    background-size: 150%;
 }
 .nav3{
     background-color:#eff3f6;
@@ -223,8 +226,8 @@ p {
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ),url(https://i.imgur.com/YOWIKHb.png);
-    background-size: 30%;
+    ),url(4.png);
+    background-size: 20%;
 }
 .mwee{
     height:auto;
