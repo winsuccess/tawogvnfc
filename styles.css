@@ -9,7 +9,7 @@ body{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
-      ),url(wallpaper.jpg);
+      ),url(https://i.imgur.com/KoYIaDQ.jpg);
      background-size: 25%;
 }
 .btn{
@@ -39,7 +39,7 @@ body{
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url(5.png);
+    ),url(https://i.imgur.com/M24FwBK.png);
     background-size: 30%;
 }
 
@@ -126,7 +126,7 @@ ol.carousel-indicators {
     linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
-    ),url(Episode_card_background.png);
+    ),url(https://i.imgur.com/8ORsxMP.png);
     background-size: 200%;
 }
 .nav3{
@@ -223,7 +223,7 @@ p {
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ),url(4.png);
+    ),url(https://i.imgur.com/YOWIKHb.png);
     background-size: 30%;
 }
 .mwee{
