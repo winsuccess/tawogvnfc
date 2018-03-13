@@ -5,13 +5,6 @@
     src: url(TheLightFont.ttf) format('truetype');
 }
 
-body{
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
-      ),url(wallpaper-min.jpg);
-     background-size: 25%;
-}
 img {color:black}
 
 

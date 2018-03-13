@@ -23,7 +23,7 @@ body{
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url(../Episode_card_background.png);
+    ),url(../Episode_card_background.jpg);
 }
 
 .btn{
