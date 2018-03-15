@@ -83,7 +83,7 @@ ol.carousel-indicators {
 }
 #p2{ 
     font-size: 0.9em;
-    font-family: PT Sans;
+    font-family: Roboto;
 
 }
 #p3{
@@ -199,6 +199,8 @@ p {
     padding-top: 1em;
 }
 
+.col-3point5 {width: 32%}
+
 .carousel-caption>a.class1:hover{
     color: brown;
     text-decoration: none;
@@ -211,8 +213,6 @@ p {
     color: hotpink;
     text-decoration: none;
 }
-
-.col-3point5 {width: 32%}
 
 .mw{
     border: 2px solid black;
