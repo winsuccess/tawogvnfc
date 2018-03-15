@@ -15,6 +15,9 @@
     #p5{
         font-size: 13px !important;
     }
+    #ptap{
+        font-size: 85% !important;
+    }
 
     .about{
         font-size: 15px !important;
@@ -93,9 +96,6 @@
     #p3{
         font-size: 0.4rem;
      }
-     #ptap{
-        font-size: 5px !important;
-    }
     .mw{
         font-size:0;
         border-radius: 5px;
@@ -123,8 +123,8 @@
         font-size:6px;
     }
     #ptap{
-        border-radius: 1px;
-        width: 20%;
+        font-size: 70%;
+        width: 35%;
     }
     .fb-page{
         margin:0 auto;
@@ -133,6 +133,11 @@
     .about{
         font-size: 12px;
     }
+  }
+  @media screen and (max-width:572px){
+      #ptap{
+          font-size: 100%;
+      }
   }
 
   @media screen and (max-width:471px) {
@@ -184,6 +189,9 @@
      }
     #p5{
         font-size:3px;
+    }
+    #ptap{
+        font-size: 80%;
     }
   }
 
