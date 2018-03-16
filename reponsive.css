@@ -26,10 +26,6 @@
 }
 
 @media screen and (max-width:1019px) {
-    .logo{
-        width: 50%;
-        margin-top:1.5em;
-    }
     .bar1{
         font-size: 1em;
         border-top-left-radius: 5px;

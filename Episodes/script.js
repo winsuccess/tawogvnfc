@@ -1,4 +1,7 @@
-$('#recipeCarousel').carousel({
+$('#recipeCarousel5').carousel({
+  interval: 10000
+})
+$('#recipeCarousel6').carousel({
   interval: 10000
 })
 
@@ -16,6 +19,9 @@ $('.carousel .carousel-item').each(function(){
       	}
         
         next.children(':first-child').clone().appendTo($(this));
-      }
-      
+      }    
+});
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
 });
