@@ -6,7 +6,7 @@ $('#recipeCarousel6').carousel({
   interval: 10000
 })
 
-$('.carousel .carousel-item').each(function(){
+$('.carousel .carousel-item').each(window.onload=function(){
     var next = $(this).next();
     if (!next.length) {
     next = $(this).siblings(':first');
