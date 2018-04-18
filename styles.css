@@ -5,9 +5,6 @@
     src: url(TheLightFont.ttf) format('truetype');
 }
 
-body{
-}
-
 img {color:black}
 
 
@@ -207,15 +204,15 @@ p {
 .col-3point5 {width: 32%}
 
 .carousel-caption>a.class1:hover{
-    color: brown;
+    color: #e71c26;
     text-decoration: none;
 }
 .carousel-caption>a.class2:hover{
-    color: hotpink;
+    color: #708090;
     text-decoration: none;
 }
 .carousel-caption>a.class3:hover{
-    color: #66CC00;
+    color: #48D1CC;
     text-decoration: none;
 }
 

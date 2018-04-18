@@ -62,27 +62,30 @@ function ChangeUrl(title, url) {
                   <li data-target="#new" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="NewEps/the-one.jpg" alt="The One">
+
+                 <div class="carousel-item active">
+                        <img src="NewEps/the-candidate.jpg" alt="The Candidate">
                         <div class="carousel-caption">
-                         <a class="class1" href="/episode-s06e05"><span id="p1">The One</span><span id="p3">(S06E05)</span></span>  </a>
-                         <p id="p2">Tobias muốn trở thành bạn thân nhất của Gumball.</p>
+                         <a class="class1" href="/episode-s06e12"><span id="p1">The Candidate</span><span id="p3">(S06E12)</span></span>  </a>
+                         <p id="p2">Lũ trẻ bị nhốt lại trong trường sau khi ba mẹ tổ chức một bữa tiệc từ thiện. Chúng bổ nhiệm Gumball làm lãnh đạo để được giải thoát nhưng lại được kết cục hỗn loạn.</p>
                         </div>   
                       </div>
-                    <div class="carousel-item">
-                                <img src="NewEps/the-lady.jpg" alt="The Lady">
+
+                <div class="carousel-item">
+                                <img src="NewEps/the-father.jpg" alt="The Lady">
                                 <div class="carousel-caption">
-                                    <a class="class2" href="/episode-s06e02"><span id="p1"> The Lady</span><span id="p3">(S06E02)</span>  <br> </a>
-                                    <p id="p2">Gumball và Darwin phát hiện ra bấy lâu nay bố đã giả gái để đi tìm bạn.</p>
+                                    <a class="class2" href="/episode-s06e06"><span id="p1"> The Father</span><span id="p3">(S06E06)</span>  <br> </a>
+                                    <p id="p2">Lũ trẻ giúp bố Richard hàn gắn tình cảm với ông nội Frankie.</p>
                                 </div>   
                               </div>
-                    <div class="carousel-item">
-                    <img src="NewEps/the-vegging.jpg" alt="The Vegging">
+                <div class="carousel-item">
+                    <img src="NewEps/the-faith.jpg" alt="The Faith">
                     <div class="carousel-caption">
-                        <a class="class3" href="/episode-s06e04"><span id="p1"> The Vegging</span><span id="p3">(S06E03)</span>  <br> </a>
-                        <p id="p2">Gumball và Darwin định nằm ườn cả ngày nhưng cuối cùng dự định đó lại tiêu tùng và hai người phải đi giải cứu các thành viên còn lại trong gia đình mình.</p>
+                        <a class="class3" href="/episode-s06e11"><span id="p1"> The Faith</span><span id="p3">(S06E11)</span>  <br> </a>
+                        <p id="p2">Alan không còn lòng tin vào nhân loại và biến thế giới thành hai màu trắng đen. Gumball phải bỏ qua lòng ganh ghét của mình với Alan để hát mang màu sắc trở lại.</p>
                     </div>   
                   </div>
+
                 </div>
                 <a class="carousel-control-prev" href="#new" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -115,7 +118,7 @@ function ChangeUrl(title, url) {
     <div class="nav2 container">
         <div class="bar2 container">
             <div class="row nav nav-pills">
-                <a name=season1 class="col-2 season1img <?php if ($Season ==1)  {echo "active show"; } ?>" 
+                <a class="col-2 season1img <?php if ($Season ==1)  {echo "active show"; } ?>" 
                 data-toggle="pill" href="#season1"onclick="ChangeUrl('season1', 'season1');" style="border-top-left-radius:5px; border-bottom-left-radius:5px">Season 1</a>
                 <a class="col-2 season1img <?php if ($Season ==2)  {echo "active show"; } ?>" 
                 data-toggle="pill" href="#season2" onclick="ChangeUrl('season2', 'season2');">Season 2</a>

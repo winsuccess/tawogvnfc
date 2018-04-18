@@ -1,12 +1,10 @@
 
-$('#recipeCarousel5').carousel({
-  interval: 10000
-})
-$('#recipeCarousel6').carousel({
+$('#recipeCarousel').carousel({
   interval: 10000
 })
 
-$('.carousel .carousel-item').each(window.onload=function(){
+
+$('.carousel .carousel-item').each(function(){
     var next = $(this).next();
     if (!next.length) {
     next = $(this).siblings(':first');
