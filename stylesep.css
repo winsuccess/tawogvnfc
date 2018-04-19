@@ -1,0 +1,166 @@
+@font-face {
+  font-family: lightfont;
+  src: url(../TheLightFont.ttf) format("truetype");
+}
+
+body {
+}
+
+.logo {
+  text-align: center;
+  margin-top: 1em;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.season1img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Episode_card_background.jpg);
+  text-align: center;
+  font-family: lightfont;
+  font-size: 2em;
+  color: whitesmoke;
+  opacity: 0.95;
+  text-shadow: 0 0.5px 0 blue;
+}
+
+.btn {
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+
+.nav3 {
+  background-color: #eff3f6;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.nav > a:hover {
+  color: silver;
+}
+t .nav > a.active,
+.nav > a:focus {
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+
+.outline
+{ text-align: center;}
+
+.episode {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  box-shadow: 1px 1px 0px 1px gray;
+}
+.episode:hover {
+  opacity: 0.8;
+}
+
+.about {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: lighter;
+  padding-top: 1em;
+}
+
+.fa-arrow-circle-right,
+.fa-arrow-circle-left {
+  display: inline-block;
+  color: black;
+  font-size: 3em !important;
+}
+h1 {
+  font-family: Poppins;
+  display: inline-block;
+  font-weight: bold;
+}
+h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: left;
+}
+#ptap {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  width: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 100%;
+  color: black;
+  background: #d4d5d8;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.alert {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Roboto";
+}
+
+.nav2 {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 0.2em;
+  margin-bottom: 1em;
+}
+
+.col-5-12 {
+  width: 20%;
+  position: relative;
+}
+
+.navmain {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 1em 2em 0em 2em;
+  margin-top: 2em;
+  text-align: center;
+  position: relative;
+  background-color: rgba(205, 208, 215, 0.97);
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1 !important;
+  width: 5%;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(20%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-20%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}

@@ -8,10 +8,20 @@ if (!empty($_GET)) {
 
 <html lang="en">
   <head>
-    <title>TAWOGVN Fan Site</title>
+    <title>TAWOGVN Fan Site - Xem Thế Giới Kì Diệu Của Gumball mới nhất</title>
     <!-- Required meta tags -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta name="description" content="Xem trọn bộ Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta property="og:title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta property="og:description" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta name="keywords" content="mùa 6, season 6, tawog, tawogvnfc.gq, phụ đề, vietsub, phim hoạt hình, xem, mới nhất, mùa 5, mùa 4, subtitle, vietnam, hoat hinh, new, full, toan tap, gumball, watterson, cartoon, darwin, tiếng việt, thế giới, kì diệu, tv shows, tv series, online, download, bộ, sub">
+     <meta property="og:locate" content="vi_VN">
+     <meta property="og:url" content="http://www.tawogvnfc.gq/">
+     <meta property="og:type" content="website" >
+     <meta name="google-site-verification" content="xpFqe_gAX9cDUEBIOCwfYSyMqq0yjc-aWbgRQud8o1w" />
+     
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional JavaScript -->
@@ -147,7 +157,28 @@ function ChangeUrl(title, url) {
             </div>
 
             <div id="season4" class="tab-pane container fade <?php if ($Season ==4)  {echo "active show"; } ?>">
-                    <div class="alert"> Hiện tại chưa có Season 4 các bạn thông cảm! </div>  
+                <div class="row">
+                    <?php
+                    $sql = "SELECT * FROM Phim WHERE Season='4'";
+                    $result = mysqli_query($conn, $sql);
+                    if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()){
+                        $id=$row["ID"];
+                        $season=$row["Season"];
+                        $episode=$row["Episode"];
+                        $link=$row["Link"];
+                        $img=$row["Img"];
+                        $name=$row["Name"];
+                        echo"
+                        <div class='col-sm-3'>
+                                <div class='outline'>
+                                <a href='/episode-$id'>  <div class='episode' > <img src='$img' alt='$name' style='width: 100%'> <br> <p id='ptap'>Tập $episode</p>
+                        </div>  </a> </div> </div>
+                        ";
+                      }
+                    }
+                     ?>
+                </div>
             </div>
 
             <div id="season5" class="tab-pane container fade <?php if ($Season ==5)  {echo "active show"; } ?>">
@@ -171,7 +202,7 @@ function ChangeUrl(title, url) {
                         ";
                       }
                     }
-            ?>
+                     ?>
                 </div>
             </div>
 
@@ -196,7 +227,7 @@ function ChangeUrl(title, url) {
                       }
                     }
                     $conn->close();
-            ?>
+                        ?>
                 </div>
             </div>         
         </div>   

@@ -1,0 +1,12 @@
+
+# HTID:4784257: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:4784257:
+
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteBase /
+RewriteRule    ^episode-(s0[5-6]e[0-4][0-9])$ episode.php?ID=$1 [NC,L]
+RewriteRule    ^season([0-6])$ index.php?Season=$1 [NC,L]

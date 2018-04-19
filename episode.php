@@ -18,10 +18,19 @@ $conn->close();
 
 <html lang="en">
 <head>
-    <title><?php echo $row['Name'];?> - <?php echo $idup;?></title>
+    <title>TAWOGVN Fan Site</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta name="description" content="Xem trọn bộ Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta property="og:title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta property="og:description" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta name="keywords" content="mùa 6, season 6, tawog, tawogvnfc.gq, phụ đề, vietsub, phim hoạt hình, xem, mới nhất, mùa 5, mùa 4, subtitle, vietnam, hoat hinh, new, full, toan tap, gumball, watterson, cartoon, darwin, tiếng việt, thế giới, kì diệu, tv shows, tv series, online, download, bộ, sub">
+     <meta property="og:locate" content="vi_VN">
+     <meta property="og:url" content="http://www.tawogvnfc.gq/">
+     <meta property="og:type" content="website" >
+     <meta name="google-site-verification" content="xpFqe_gAX9cDUEBIOCwfYSyMqq0yjc-aWbgRQud8o1w" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -33,6 +42,7 @@ $conn->close();
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        
     <!-- External Files -->
     
     <link rel="stylesheet" type="text/css" href="stylesep.css">
@@ -41,7 +51,10 @@ $conn->close();
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <style>
+           img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+    display: none;}
+    </style>
 </head>
 
 <body style="background-image: url(wallpaper.jpg); background-size: 15%">
@@ -57,7 +70,7 @@ $conn->close();
     <!-- LOGO -->
     <div class="logo">
         <a href="/">
-            <img src="logo.png" alt="TAWOGVNFC" style="width: 33%"> </a>
+            <img src="logo.png" alt="TAWOGVNFC" style="width: 28%"> </a>
     </div>
 
     <!-- Main Tab-->
