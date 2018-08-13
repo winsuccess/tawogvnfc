@@ -204,15 +204,15 @@ p {
 .col-3point5 {width: 32%}
 
 .carousel-caption>a.class1:hover{
-    color: #e71c26;
+    color:  #ffb3ff;
     text-decoration: none;
 }
 .carousel-caption>a.class2:hover{
-    color: #708090;
+    color: rgb(255, 255, 50);
     text-decoration: none;
 }
 .carousel-caption>a.class3:hover{
-    color: #48D1CC;
+    color:  #4682B4;
     text-decoration: none;
 }
 

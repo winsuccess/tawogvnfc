@@ -8,10 +8,20 @@ if (!empty($_GET)) {
 
 <html lang="en">
   <head>
-    <title>TAWOGVN Fan Site</title>
+    <title>TAWOGVN Fan Site - Xem Thế Giới Kì Diệu Của Gumball mới nhất</title>
     <!-- Required meta tags -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta name="description" content="Xem trọn bộ Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta property="og:title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta property="og:description" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
+     <meta name="keywords" content="mùa 6, season 6, tawog, tawogvnfc.gq, phụ đề, vietsub, phim hoạt hình, xem, mới nhất, mùa 5, mùa 4, subtitle, vietnam, hoat hinh, new, full, toan tap, gumball, watterson, cartoon, darwin, tiếng việt, thế giới, kì diệu, tv shows, tv series, online, download, bộ, sub">
+     <meta property="og:locate" content="vi_VN">
+     <meta property="og:url" content="http://www.tawogvnfc.gq/">
+     <meta property="og:type" content="website" >
+     <meta name="google-site-verification" content="xpFqe_gAX9cDUEBIOCwfYSyMqq0yjc-aWbgRQud8o1w" />
+     
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Optional JavaScript -->
@@ -62,27 +72,30 @@ function ChangeUrl(title, url) {
                   <li data-target="#new" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="NewEps/the-one.jpg" alt="The One">
+
+                <div class="carousel-item active">
+                                <img src="NewEps/the-schooling.jpg" alt="The Schooling">
+                                <div class="carousel-caption">
+                                    <a class="class2" href="/episode-s06e18"><span id="p1">The Schooling</span><span id="p3">(S06E18)</span>  <br> </a>
+                                    <p id="p2">Gumball và Darwin nghỉ học để làm thay những công việc Larry làm và nhận ra mọi chuyện tệ đến mức nào.</p>
+                                </div> 
+                    </div>
+                 <div class="carousel-item">
+                        <img src="NewEps/the-brain.jpg" alt="The Brain">
                         <div class="carousel-caption">
-                         <a class="class1" href="/episode-s06e05"><span id="p1">The One</span><span id="p3">(S06E05)</span></span>  </a>
-                         <p id="p2">Tobias muốn trở thành bạn thân nhất của Gumball.</p>
+                         <a class="class1" href="/episode-s06e15"><span id="p1">The Brain</span><span id="p3">(S06E15)</span></span>  </a>
+                         <p id="p2">Nhà Wattersons phải dừng làm trò ngu ngốc để Anais không bị rơi vào tình trạng hôn mê do tự đập vào đầu quá nhiều.</p>
                         </div>   
                       </div>
-                    <div class="carousel-item">
-                                <img src="NewEps/the-lady.jpg" alt="The Lady">
-                                <div class="carousel-caption">
-                                    <a class="class2" href="/episode-s06e02"><span id="p1"> The Lady</span><span id="p3">(S06E02)</span>  <br> </a>
-                                    <p id="p2">Gumball và Darwin phát hiện ra bấy lâu nay bố đã giả gái để đi tìm bạn.</p>
-                                </div>   
-                              </div>
-                    <div class="carousel-item">
-                    <img src="NewEps/the-vegging.jpg" alt="The Vegging">
+  
+                <div class="carousel-item">
+                    <img src="NewEps/the-founder.jpg" alt="The Founder">
                     <div class="carousel-caption">
-                        <a class="class3" href="/episode-s06e04"><span id="p1"> The Vegging</span><span id="p3">(S06E03)</span>  <br> </a>
-                        <p id="p2">Gumball và Darwin định nằm ườn cả ngày nhưng cuối cùng dự định đó lại tiêu tùng và hai người phải đi giải cứu các thành viên còn lại trong gia đình mình.</p>
+                        <a class="class3" href="/episode-s06e17"><span id="p1"> The Founder</span><span id="p3">(S06E17)</span>  <br> </a>
+                        <p id="p2">Richard tạo ra sự hỗn loan cho công ty Chanax khi bị nhầm lẫn là người CEO mất tích lâu năm.</p>
                     </div>   
                   </div>
+
                 </div>
                 <a class="carousel-control-prev" href="#new" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -115,7 +128,7 @@ function ChangeUrl(title, url) {
     <div class="nav2 container">
         <div class="bar2 container">
             <div class="row nav nav-pills">
-                <a name=season1 class="col-2 season1img <?php if ($Season ==1)  {echo "active show"; } ?>" 
+                <a class="col-2 season1img <?php if ($Season ==1)  {echo "active show"; } ?>" 
                 data-toggle="pill" href="#season1"onclick="ChangeUrl('season1', 'season1');" style="border-top-left-radius:5px; border-bottom-left-radius:5px">Season 1</a>
                 <a class="col-2 season1img <?php if ($Season ==2)  {echo "active show"; } ?>" 
                 data-toggle="pill" href="#season2" onclick="ChangeUrl('season2', 'season2');">Season 2</a>
@@ -144,7 +157,28 @@ function ChangeUrl(title, url) {
             </div>
 
             <div id="season4" class="tab-pane container fade <?php if ($Season ==4)  {echo "active show"; } ?>">
-                    <div class="alert"> Hiện tại chưa có Season 4 các bạn thông cảm! </div>  
+                <div class="row">
+                    <?php
+                    $sql = "SELECT * FROM Phim WHERE Season='4'";
+                    $result = mysqli_query($conn, $sql);
+                    if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()){
+                        $id=$row["ID"];
+                        $season=$row["Season"];
+                        $episode=$row["Episode"];
+                        $link=$row["Link"];
+                        $img=$row["Img"];
+                        $name=$row["Name"];
+                        echo"
+                        <div class='col-sm-3'>
+                                <div class='outline'>
+                                <a href='/episode-$id'>  <div class='episode' > <img src='$img' alt='$name' style='width: 100%'> <br> <p id='ptap'>Tập $episode</p>
+                        </div>  </a> </div> </div>
+                        ";
+                      }
+                    }
+                     ?>
+                </div>
             </div>
 
             <div id="season5" class="tab-pane container fade <?php if ($Season ==5)  {echo "active show"; } ?>">
@@ -168,7 +202,7 @@ function ChangeUrl(title, url) {
                         ";
                       }
                     }
-            ?>
+                     ?>
                 </div>
             </div>
 
@@ -193,7 +227,7 @@ function ChangeUrl(title, url) {
                       }
                     }
                     $conn->close();
-            ?>
+                        ?>
                 </div>
             </div>         
         </div>   

@@ -73,28 +73,29 @@ function ChangeUrl(title, url) {
                 </ol>
                 <div class="carousel-inner">
 
-                 <div class="carousel-item active">
-                        <img src="NewEps/the-candidate.jpg" alt="The Candidate">
-                        <div class="carousel-caption">
-                         <a class="class1" href="/episode-s06e12"><span id="p1">The Candidate</span><span id="p3">(S06E12)</span></span>  </a>
-                         <p id="p2">Lũ trẻ bị nhốt lại trong trường sau khi ba mẹ tổ chức một bữa tiệc từ thiện. Chúng bổ nhiệm Gumball làm lãnh đạo để được giải thoát nhưng lại được kết cục hỗn loạn.</p>
-                        </div>   
-                      </div>
-
-                <div class="carousel-item">
-                                <img src="NewEps/the-father.jpg" alt="The Lady">
-                                <div class="carousel-caption">
-                                    <a class="class2" href="/episode-s06e06"><span id="p1"> The Father</span><span id="p3">(S06E06)</span>  <br> </a>
-                                    <p id="p2">Lũ trẻ giúp bố Richard hàn gắn tình cảm với ông nội Frankie.</p>
-                                </div>   
-                              </div>
-                <div class="carousel-item">
-                    <img src="NewEps/the-faith.jpg" alt="The Faith">
+                <div class="carousel-item active">
+                    <img src="NewEps/the-intelligence.jpg" alt="The Intelligence">
                     <div class="carousel-caption">
-                        <a class="class3" href="/episode-s06e11"><span id="p1"> The Faith</span><span id="p3">(S06E11)</span>  <br> </a>
-                        <p id="p2">Alan không còn lòng tin vào nhân loại và biến thế giới thành hai màu trắng đen. Gumball phải bỏ qua lòng ganh ghét của mình với Alan để hát mang màu sắc trở lại.</p>
+                        <a class="class3" href="/episode-s06e19"><span id="p1"> The Intelligence</span><span id="p3">(S06E19)</span>  <br> </a>
+                        <p id="p2">Công nghệ nắm bắt trí tuệ của con người nhưng vì những sai sót của loài người mà bị rối loạn chức năng.</p>
                     </div>   
                   </div>
+
+                <div class="carousel-item">
+                                <img src="NewEps/the-schooling.jpg" alt="The Schooling">
+                                <div class="carousel-caption">
+                                    <a class="class2" href="/episode-s06e18"><span id="p1">The Schooling</span><span id="p3">(S06E18)</span>  <br> </a>
+                                    <p id="p2">Gumball và Darwin nghỉ học để làm thay những công việc Larry làm và nhận ra mọi chuyện tệ đến mức nào.</p>
+                                </div> 
+                    </div>
+                 <div class="carousel-item">
+                        <img src="NewEps/the-brain.jpg" alt="The Brain">
+                        <div class="carousel-caption">
+                         <a class="class1" href="/episode-s06e15"><span id="p1">The Brain</span><span id="p3">(S06E15)</span></span>  </a>
+                         <p id="p2">Nhà Wattersons phải dừng làm trò ngu ngốc để Anais không bị rơi vào tình trạng hôn mê do tự đập vào đầu quá nhiều.</p>
+                        </div>   
+                      </div>
+        
 
                 </div>
                 <a class="carousel-control-prev" href="#new" data-slide="prev">
