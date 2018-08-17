@@ -108,19 +108,18 @@ function ChangeUrl(title, url) {
             <div class="col-3point5 mw">
                   <span id="p4">MOST WATCHED</span>
                   <div class="mwe container-fluid">
-                    <a href="episode-s05e36"> <div class="container mwee">
-                        <img src="MostWatched/thenuisance.jpg">
-                        <span id="p5"> <br>The Nuisance<br>(S05E36)<br><i class="material-icons" style="font-size:0.7em">remove_red_eye</i> 4.6k views</span>
+                  <a href="episode-s05e30"> <div class="container mwee">
+                        <img src="MostWatched/theheist.jpg">
+                        <span id="p5"> <br>The Heist<br>(S05E30)<br><i class="material-icons" style="font-size:0.7em">remove_red_eye</i> 7k views</span>
                     </div> </a>
                     <a href="episode-s05e27"><div class="container mwee">
                         <img src="MostWatched/themenu.jpg">
-                        <span id="p5"><br>The Menu<br>(S05E27)<br><i class="material-icons" style="font-size:0.7em">remove_red_eye</i> 4.6k views</span>
+                        <span id="p5"><br>The Menu<br>(S05E27)<br><i class="material-icons" style="font-size:0.7em">remove_red_eye</i> 6.7k views</span>
                     </div> </a>
-                    <a href="episode-s05e30"> <div class="container mwee">
-                        <img src="MostWatched/theheist.jpg">
-                        <span id="p5"> <br>The Heist<br>(S05E30)<br><i class="material-icons" style="font-size:0.7em">remove_red_eye</i> 4.5k views</span>
+                    <a href="episode-s06e01"> <div class="container mwee">
+                        <img src="MostWatched/therival.jpg">
+                        <span id="p5"> <br>The Rival<br>(S06E01)<br><i class="material-icons" style="font-size:0.7em">remove_red_eye</i> 6k views</span>
                     </div> </a>
-                
                 </div>  
             </div>
         </div>          
