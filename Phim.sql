@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 17, 2018 at 02:05 PM
+-- Generation Time: Sep 02, 2018 at 12:42 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.0.26
 
@@ -142,7 +142,9 @@ INSERT INTO `Phim` (`ID`, `Name`, `Season`, `Episode`, `Img`, `Description`, `Da
 ('s06e16', 'The Parents', 6, 16, '/Episodes/Img/parents.jpg', 'Nicole làm hòa với ba mẹ mình.', '18/6/2018', '//www.dailymotion.com/embed/video/x6omxa1'),
 ('s06e17', 'The Founder', 6, 17, '/Episodes/Img/founder.jpg', 'Richard làm hỗn loạn tại Chanax khi bị tưởng nhầm là CEO thất lạc lâu năm.', '18/6/2018', '//www.dailymotion.com/embed/video/x6ond1w'),
 ('s06e18', 'The Schooling', 6, 18, '/Episodes/Img/schooling.jpg', 'Gumball và Darwin làm thay việc cho Larry trong 5 phút và nhận ra nó tệ thế nào.', '18/6/2018', '//www.dailymotion.com/embed/video/x6pp4f7'),
-('s06e19', 'The Intelligence', 6, 19, '/Episodes/Img/intelligence.jpg', 'Công nghệ nắm bắt trí tuệ của con người nhưng vì những sai sót của loài người mà bị rối loạn chức năng.', '18/6/2018', '//www.dailymotion.com/embed/video/x6rvck3');
+('s06e19', 'The Intelligence', 6, 19, '/Episodes/Img/intelligence.jpg', 'Công nghệ nắm bắt trí tuệ của con người nhưng vì những sai sót của loài người mà bị rối loạn chức năng.', '18/6/2018', '//www.dailymotion.com/embed/video/x6rvck3'),
+('s06e20', 'The Potion', 6, 20, '/Episodes/Img/potion.jpg', 'Gumball và Darwin sử dụng một lọ thuốc pháp thuật để hóa nhỏ Hector.', '16/7/2018', '//www.dailymotion.com/embed/video/x6szrnf\r\n'),
+('s06e21', 'The Spinoffs', 6, 21, '/Episodes/Img/spinoffs.jpg', 'Rob tạo ra nhiều chương trình ngoài lề khác về Elmore để thay thế Gumball.', '16/7/2018', '//www.dailymotion.com/embed/video/x6skpe3');
 
 --
 -- Indexes for dumped tables

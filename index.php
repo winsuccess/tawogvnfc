@@ -1,5 +1,5 @@
 <!doctype html>
-<base href="http://tawogvnfc.gq/">
+<base href="http://tawogvnfc.ga/">
 
 <?php require ('main.php'); 
 if (!empty($_GET)) {
@@ -16,9 +16,9 @@ if (!empty($_GET)) {
      <meta name="description" content="Xem trọn bộ Thế Giới Kì Diệu của Gumball mới nhất">
      <meta property="og:title" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
      <meta property="og:description" content="TAWOGVN Fan Site - Xem Thế Giới Kì Diệu của Gumball mới nhất">
-     <meta name="keywords" content="mùa 6, season 6, tawog, tawogvnfc.gq, phụ đề, vietsub, phim hoạt hình, xem, mới nhất, mùa 5, mùa 4, subtitle, vietnam, hoat hinh, new, full, toan tap, gumball, watterson, cartoon, darwin, tiếng việt, thế giới, kì diệu, tv shows, tv series, online, download, bộ, sub">
+     <meta name="keywords" content="mùa 6, season 6, tawog, tawogvnfc.ga, phụ đề, vietsub, phim hoạt hình, xem, mới nhất, mùa 5, mùa 4, subtitle, vietnam, hoat hinh, new, full, toan tap, gumball, watterson, cartoon, darwin, tiếng việt, thế giới, kì diệu, tv shows, tv series, online, download, bộ, sub">
      <meta property="og:locate" content="vi_VN">
-     <meta property="og:url" content="http://www.tawogvnfc.gq/">
+     <meta property="og:url" content="http://www.tawogvnfc.ga/">
      <meta property="og:type" content="website" >
      <meta name="google-site-verification" content="xpFqe_gAX9cDUEBIOCwfYSyMqq0yjc-aWbgRQud8o1w" />
      
@@ -39,13 +39,14 @@ if (!empty($_GET)) {
        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
        <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet'>
        <style>
-           img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+           img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
     display: none;}
        </style>
     </head>
 
   <body style="background-image: url(wallpaper.jpg); background-size: 15%">
     <script type="text/javascript">
+
 function ChangeUrl(title, url) {
     if (typeof (history.pushState) != "undefined") {
         var obj = { Title: title, Url: url };
@@ -57,6 +58,10 @@ function ChangeUrl(title, url) {
 
     <!-- LOGO -->
         <div class="logo"><a href="/"><img src="logo.png" alt="TAWOGVNFC" style="width: 28%"> </a>  </div>
+
+ <!-- AD -->
+        <img class="ad" src="ad.png" style="right: 0" alt="AD">
+        <img class="ad" src="ad.png" alt="AD">
 
     <!-- Main Tab-->
     <div class="nav1 container">
@@ -74,30 +79,31 @@ function ChangeUrl(title, url) {
                 <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <img src="NewEps/the-intelligence.jpg" alt="The Intelligence">
+                                <img src="NewEps/the-master.jpg" alt="The Master">
+                                <div class="carousel-caption">
+                                    <a class="class2" href="/episode-s06e32"><span id="p1">The Master</span><span id="p3">(S06E32)</span>  <br> </a>
+                                    <p id="p2">Nhà Wattersons chơi board game nhập vai để giải quyết xung đột cá nhân.</p>
+                                </div> 
+                    </div>
+
+                <div class="carousel-item">
+                        <img src="NewEps/the-buddy.jpg" alt="The Buddy">
+                        <div class="carousel-caption">
+                         <a class="class1" href="/episode-s06e30"><span id="p1">The Buddy</span><span id="p3">(S06E30)</span></span>  </a>
+                         <p id="p2">Anais và Jamie trở thành bạn bè sau khi bị buộc tội mà không phải chúng làm. </p>
+                        </div>   
+                      </div>
+
+                <div class="carousel-item">
+                    <img src="NewEps/the-future.jpg" alt="The Future">
                     <div class="carousel-caption">
-                        <a class="class3" href="/episode-s06e19"><span id="p1"> The Intelligence</span><span id="p3">(S06E19)</span>  <br> </a>
-                        <p id="p2">Công nghệ nắm bắt trí tuệ của con người nhưng vì những sai sót của loài người mà bị rối loạn chức năng.</p>
+                        <a class="class3" href="/episode-s06e34"><span id="p1"> The Future</span><span id="p3">(S06E34)</span>  <br> </a>
+                        <p id="p2">Banana Barbara có thể tiên đoán tương lai, nhưng cô ấy không thể biết trước sự mất tích của chính bản thân mình.</p>
                     </div>   
                   </div>
 
-                <div class="carousel-item">
-                                <img src="NewEps/the-schooling.jpg" alt="The Schooling">
-                                <div class="carousel-caption">
-                                    <a class="class2" href="/episode-s06e18"><span id="p1">The Schooling</span><span id="p3">(S06E18)</span>  <br> </a>
-                                    <p id="p2">Gumball và Darwin nghỉ học để làm thay những công việc Larry làm và nhận ra mọi chuyện tệ đến mức nào.</p>
-                                </div> 
-                    </div>
-                 <div class="carousel-item">
-                        <img src="NewEps/the-brain.jpg" alt="The Brain">
-                        <div class="carousel-caption">
-                         <a class="class1" href="/episode-s06e15"><span id="p1">The Brain</span><span id="p3">(S06E15)</span></span>  </a>
-                         <p id="p2">Nhà Wattersons phải dừng làm trò ngu ngốc để Anais không bị rơi vào tình trạng hôn mê do tự đập vào đầu quá nhiều.</p>
-                        </div>   
-                      </div>
-        
-
                 </div>
+
                 <a class="carousel-control-prev" href="#new" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
                 </a>
