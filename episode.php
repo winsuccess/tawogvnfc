@@ -52,14 +52,15 @@ $conn->close();
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-           img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+           img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
     display: none;}
-    </style>
+       </style>
 </head>
 
 <body style="background-image: url(wallpaper.jpg); background-size: 15%">
     <!--Scripts-->
     <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
     <script>(function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
@@ -72,6 +73,10 @@ $conn->close();
         <a href="/">
             <img src="logo.png" alt="TAWOGVNFC" style="width: 28%"> </a>
     </div>
+
+     <!-- AD -->
+     <a href="http://tokago.vn/chien-dich?gumball1" target="_blank"><img class="ad" src="ad.png" style="right: 0" alt="AD"> </a>
+ <a href="http://tokago.vn/chien-dich?gumball1" target="_blank">   <img class="ad" src="ad.png" alt="AD"> </a>
 
     <!-- Main Tab-->
     
@@ -150,7 +155,7 @@ $conn->close();
             <iframe src="<?php echo $row['Link'];?>?logo=0&theme='dark'&info=0&related=0&social=0&api=1" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"
                 allowfullscreen scrolling="no"></iframe>
         </div>
-        <div class="fb-comments" data-href="http://tawogvnfc.gq/episode-<?php echo $row['ID'];?>" data-width="100%" data-numposts="5"></div>
+        <div class="fb-comments" data-href="http://tawogvnfc.ga/episode-<?php echo $row['ID'];?>" data-width="100%" data-numposts="5"></div>
     </div>
 
 

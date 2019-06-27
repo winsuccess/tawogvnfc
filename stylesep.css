@@ -16,6 +16,12 @@ body {
   -ms-user-select: none;
 }
 
+.ad {
+  position:fixed;
+  z-index: 1;
+  top: 25%;
+}
+
 .season1img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../Episode_card_background.jpg);

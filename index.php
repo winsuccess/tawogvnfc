@@ -60,8 +60,8 @@ function ChangeUrl(title, url) {
         <div class="logo"><a href="/"><img src="logo.png" alt="TAWOGVNFC" style="width: 28%"> </a>  </div>
 
  <!-- AD -->
-        <img class="ad" src="ad.png" style="right: 0" alt="AD">
-        <img class="ad" src="ad.png" alt="AD">
+ <a href="http://tokago.vn/chien-dich?gumball1" target="_blank"><img class="ad" src="ad.png" style="right: 0" alt="AD"> </a>
+ <a href="http://tokago.vn/chien-dich?gumball1" target="_blank">   <img class="ad" src="ad.png" alt="AD"> </a>
 
     <!-- Main Tab-->
     <div class="nav1 container">
