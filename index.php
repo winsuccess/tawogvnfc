@@ -60,8 +60,8 @@ function ChangeUrl(title, url) {
         <div class="logo"><a href="/"><img src="logo.png" alt="TAWOGVNFC" style="width: 28%"> </a>  </div>
 
  <!-- AD -->
- <a href="http://tokago.vn/chien-dich?gumball1" target="_blank"><img class="ad" src="ad.png" style="right: 0" alt="AD"> </a>
- <a href="http://tokago.vn/chien-dich?gumball1" target="_blank">   <img class="ad" src="ad.png" alt="AD"> </a>
+ <!-- <a href="http://tokago.vn/chien-dich?gumball1" target="_blank"><img class="ad" src="ad.png" style="right: 0" alt="AD"> </a>
+ <a href="http://tokago.vn/chien-dich?gumball1" target="_blank">   <img class="ad" src="ad.png" alt="AD"> </a> -->
 
     <!-- Main Tab-->
     <div class="nav1 container">
@@ -78,27 +78,25 @@ function ChangeUrl(title, url) {
                 </ol>
                 <div class="carousel-inner">
 
-                <div class="carousel-item active">
-                                <img src="NewEps/the-master.jpg" alt="The Master">
+                <div class="carousel-item active ">
+                                <img src="NewEps/the-silence.jpg" alt="The Silence">
                                 <div class="carousel-caption">
-                                    <a class="class2" href="/episode-s06e32"><span id="p1">The Master</span><span id="p3">(S06E32)</span>  <br> </a>
-                                    <p id="p2">Nhà Wattersons chơi board game nhập vai để giải quyết xung đột cá nhân.</p>
+                                    <a class="class2" href="/episode-s06e33"><span id="p1">The Silence</span><span id="p3">(S06E33)</span>  <br> </a>
+                                    <p id="p2">Gumball và Darwin hết lời để nói chuyện với nhau.</p>
                                 </div> 
                     </div>
-
                 <div class="carousel-item">
-                        <img src="NewEps/the-buddy.jpg" alt="The Buddy">
+                        <img src="NewEps/the-wish.jpg" alt="The Wish">
                         <div class="carousel-caption">
-                         <a class="class1" href="/episode-s06e30"><span id="p1">The Buddy</span><span id="p3">(S06E30)</span></span>  </a>
-                         <p id="p2">Anais và Jamie trở thành bạn bè sau khi bị buộc tội mà không phải chúng làm. </p>
+                         <a class="class1" href="/episode-s06e35"><span id="p1">The Wish</span><span id="p3">(S06E35)</span></span>  </a>
+                         <p id="p2">Gumball và Darwin tin rằng điều ước của chúng khiến cô Simian biến thành cái gối cổ. </p>
                         </div>   
                       </div>
-
-                <div class="carousel-item">
-                    <img src="NewEps/the-future.jpg" alt="The Future">
+                <div class="carousel-item ">
+                    <img src="NewEps/the-agent.jpg" alt="The Agent">
                     <div class="carousel-caption">
-                        <a class="class3" href="/episode-s06e34"><span id="p1"> The Future</span><span id="p3">(S06E34)</span>  <br> </a>
-                        <p id="p2">Banana Barbara có thể tiên đoán tương lai, nhưng cô ấy không thể biết trước sự mất tích của chính bản thân mình.</p>
+                        <a class="class3" href="/episode-s06e37"><span id="p1"> The Agent</span><span id="p3">(S06E37)</span>  <br> </a>
+                        <p id="p2">Gumball & Darwin bị mất quần áo ở buổi bơi lội, khiến Gumball phải mặc bộ tuxedo và đóng giả là một đặc vụ bí mật người Anh.</p>
                     </div>   
                   </div>
 

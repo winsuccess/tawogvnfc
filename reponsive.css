@@ -1,4 +1,12 @@
  
+ @media screen and (max-width: 1400px)
+ {
+    .ad
+    {
+        display: none;
+    }
+ }
+ 
 @media screen and (min-width:992px) and (max-width:1200px){
     #p1{
         font-size: 20px !important;

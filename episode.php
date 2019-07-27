@@ -61,13 +61,6 @@ $conn->close();
     <!--Scripts-->
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3"></script>
-    <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
     <!-- LOGO -->
     <div class="logo">
         <a href="/">
@@ -75,8 +68,8 @@ $conn->close();
     </div>
 
      <!-- AD -->
-     <a href="http://tokago.vn/chien-dich?gumball1" target="_blank"><img class="ad" src="ad.png" style="right: 0" alt="AD"> </a>
- <a href="http://tokago.vn/chien-dich?gumball1" target="_blank">   <img class="ad" src="ad.png" alt="AD"> </a>
+     <!-- <a href="http://tokago.vn/chien-dich?gumball1" target="_blank"><img class="ad" src="ad.png" style="right: 0" alt="AD"> </a>
+ <a href="http://tokago.vn/chien-dich?gumball1" target="_blank">   <img class="ad" src="ad.png" alt="AD"> </a> -->
 
     <!-- Main Tab-->
     
