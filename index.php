@@ -79,24 +79,25 @@ function ChangeUrl(title, url) {
                 <div class="carousel-inner">
 
                 <div class="carousel-item active ">
-                                <img src="NewEps/the-silence.jpg" alt="The Silence">
+                                <img src="NewEps/the-heart.jpg" alt="The Heart">
                                 <div class="carousel-caption">
-                                    <a class="class2" href="/episode-s06e33"><span id="p1">The Silence</span><span id="p3">(S06E33)</span>  <br> </a>
-                                    <p id="p2">Gumball và Darwin hết lời để nói chuyện với nhau.</p>
+                                    <a class="class2" href="/episode-s06e40"><span id="p1">The Heart</span><span id="p3">(S06E40)</span>  <br> </a>
+                                    <p id="p2">Ông Robinson cố gắng có lại tình bạn với Gumball và Darwin nhưng liên tục thất bại.</p>
                                 </div> 
                     </div>
-                <div class="carousel-item">
-                        <img src="NewEps/the-wish.jpg" alt="The Wish">
+                <div class="carousel-item  ">
+                        <img src="NewEps/the-decisions.jpg" alt="The Decisions">
                         <div class="carousel-caption">
-                         <a class="class1" href="/episode-s06e35"><span id="p1">The Wish</span><span id="p3">(S06E35)</span></span>  </a>
-                         <p id="p2">Gumball và Darwin tin rằng điều ước của chúng khiến cô Simian biến thành cái gối cổ. </p>
+                         <a class="class1" href="/episode-s06e42"><span id="p1">The Decisions</span><span id="p3">(S06E42)</span></span>  <a>
+                         <p id="p2">Darwin không còn tin tưởng vào Gumball đưa ra quyết định nên cậu tìm đến Alan. </p>
                         </div>   
                       </div>
-                <div class="carousel-item ">
-                    <img src="NewEps/the-agent.jpg" alt="The Agent">
+
+                     <div class="carousel-item">
+                    <img src="NewEps/the-revolt.jpg" alt="The Revolt">
                     <div class="carousel-caption">
-                        <a class="class3" href="/episode-s06e37"><span id="p1"> The Agent</span><span id="p3">(S06E37)</span>  <br> </a>
-                        <p id="p2">Gumball & Darwin bị mất quần áo ở buổi bơi lội, khiến Gumball phải mặc bộ tuxedo và đóng giả là một đặc vụ bí mật người Anh.</p>
+                        <a class="class3" href="/episode-s06e41"><span id="p1"> The Revolt</span><span id="p3">(S06E41)</span>  <br> </a>
+                        <p id="p2">Darwin cảm thấy tồi tệ cho đồ vật ở Elmore nên khích lệ chúng nổi dậy giành công bằng.</p>
                     </div>   
                   </div>
 
